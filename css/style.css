@@ -40,3 +40,7 @@
   background: #4CAF50;
   cursor: pointer;
 }
+
+select {
+  margin-top: 10px;
+}
