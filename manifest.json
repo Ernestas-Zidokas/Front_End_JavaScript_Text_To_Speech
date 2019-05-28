@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Text to Speach",
+  "author": "Katamaranas",
+  "description": "Text to Speach",
+  "homepage_url": "https://github.com/Katamaranas/Front_End_JavaScript_Text_To_Speach",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "32": "coin32.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Text to Speach"
+  },
+  "icons": {
+    "32": "coin32.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

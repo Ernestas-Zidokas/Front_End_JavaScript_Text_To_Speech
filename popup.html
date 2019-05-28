@@ -1,0 +1,33 @@
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Text to Speach</title>
+</head>
+  <body>
+    <div id="base-container">
+      <div class="speech">
+        <div class="text">
+          <label for="text">Enter text Here!</label>
+          <input id="text" type="text" name="text" placeholder="Text to speech">
+        </div>
+        <p>Or</p>
+        <button id="joke" type="button" name="joke">Tell me a Joke</button>
+      </div>
+      <div class="slidecontainer">
+        <label for="pitchRange">Pitch</label>
+        <input type="range" step="0.1" min="0" max="2" value="1" class="slider" id="pitchRange">
+      </div>
+      <div class="slidecontainer">
+        <label for="rateRange">Rate</label>
+        <input type="range" step="0.1" min="0" max="2" value="1" class="slider" id="rateRange">
+      </div>
+      <div id="buttons">
+        <button id="pause" type="button" name="button">Pause</button>
+        <button id="resume" type="button" name="button">Resume</button>
+        <button id="cancel" type="button" name="button">Cancel</button>
+      </div>
+    </div>
+    <script src="js/jspopup.js"></script>
+  </body>
+</html>
